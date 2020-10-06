@@ -16,7 +16,6 @@
 			userID = (String) session.getAttribute("userID");
 		}
 	%>
-
 	<nav class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
@@ -56,7 +55,7 @@
 					aria-expanded="false">회원관리<span class="caret"></span>
 				</a>
 					<ul class="dropdown-menu">
-						<li><a href="logoutActioon.jsp">로그아웃</a></li>
+						<li><a href="logoutAction.jsp">로그아웃</a></li>
 					</ul></li>
 			</ul>
 			<%
